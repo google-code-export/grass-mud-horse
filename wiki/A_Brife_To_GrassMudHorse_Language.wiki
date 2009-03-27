@@ -64,3 +64,10 @@
 ||[草][泥]||-||输出一个数字到标准输出||Output the number at the top of the stack||
 ||[泥][草]||-||从标准输入内读取一个数字（回车结束)并且放到栈顶所对应的堆空间||Read a character and place it in the location given by the top of the stack||
 ||[泥][泥]||-||从标准输入内读取一个字符并且放到栈顶所对应的堆空间||Read a number and place it in the location given by the top of the stack||
+
+== 如何定义操作数 ==
+  操作数的定义是二进制的整数，对于流程控制指令来说是无符号的，否则是有符号的，第一位为符号位。
+  定义方法是：草为0;泥为1;马代表定义结束。对于符号位，草为正，泥为负。
+
+== 举个例子吧 ==
+  看首页，有一个例子了。
