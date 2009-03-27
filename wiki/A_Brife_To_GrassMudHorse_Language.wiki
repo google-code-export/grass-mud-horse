@@ -14,9 +14,18 @@
 == 草泥马指令头 ==
   草泥马语的指令头说明了指令的类型，列表如下：
 
-||*指令头*||*说明*||
-||`[草]  `||Stack Manipulation||
-||`[泥][草]`||Arithmetic||
-||`[泥][泥]`||Heap access||
-||`[马]  `||Flow Control||
-||`[草][马]`||I/O||
+||*指令头* ||*说明*       ||
+||`[草]  `||栈操作指令；Stack Manipulation||
+||`[泥][草]`||Arithmetic     ||
+||`[泥][泥]`||Heap access    ||
+||`[马]  `||Flow Control    ||
+||`[草][马]`||I/O         ||
+
+== 栈操作指令 [指令头：草] ==
+||*指令*||操作数||*说明*||
+||`[草]`||Number	||吧某个数压栈；Push the number onto the stack||
+||`[马][草]`||-||复制栈顶元素||Duplicate the top item on the stack||
+||`[泥][草]`||Number||复制第n个元素到栈顶；Copy the nth item on the stack (given by the argument) onto the top of the stack||
+||[马][泥]||-||交换栈顶两个元素的位置||Swap the top two items on the stack||
+||[马][马]||-||销毁栈顶元素;Discard the top item on the stack||
+||[泥][马]||Number||销毁栈顶的n个元素，但保持栈顶；Slide n items off the stack, keeping the top item||
