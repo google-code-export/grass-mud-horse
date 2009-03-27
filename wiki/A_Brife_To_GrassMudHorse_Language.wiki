@@ -45,3 +45,14 @@
 ||指令||操作数||说明||鸟语说明||
 ||[草]||-||存储栈顶元素x到堆空间y中，y是次栈顶元素||Store||
 ||[泥]||-||获取堆空间y中的元素，y是次栈顶元素||Retrieve||
+
+== 流程控制[指令头:马] ==
+
+||指令||操作数||说明||鸟语说明||
+||[草][草]||Label||定义一个标记||Mark a location in the program||
+||[草][泥]||Label||调用函数||Call a subroutine||
+||[草][马]||Label||无条件跳转||Jump unconditionally to a label||
+||[泥][草]||Label||如果栈顶元素等于0则跳转||Jump to a label if the top of the stack is zero||
+||[泥][泥]||Label||如果栈顶元素小于0则跳转||Jump to a label if the top of the stack is negative||
+||[泥][马]||-||函数结束，返回调用方||End a subroutine and transfer control back to the caller||
+||[马][马]或者[河蟹]||-||无条件结束程序运行||End the program||
