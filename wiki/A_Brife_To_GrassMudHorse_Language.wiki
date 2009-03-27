@@ -47,7 +47,7 @@
 ||[泥]||-||获取堆空间y中的元素，y是次栈顶元素||Retrieve||
 
 == 流程控制[指令头:马] ==
-
+  标记一个程序点可以用来进行跳转或者函数调用，标记是一个任意长度的无符号整数，每个草泥马文件中，标记应该是唯一的，并且所有调用的标记应当存在。
 ||指令||操作数||说明||鸟语说明||
 ||[草][草]||Label||定义一个标记||Mark a location in the program||
 ||[草][泥]||Label||调用函数||Call a subroutine||
@@ -56,3 +56,11 @@
 ||[泥][泥]||Label||如果栈顶元素小于0则跳转||Jump to a label if the top of the stack is negative||
 ||[泥][马]||-||函数结束，返回调用方||End a subroutine and transfer control back to the caller||
 ||[马][马]或者[河蟹]||-||无条件结束程序运行||End the program||
+  注意:河蟹这个指令仅仅在河蟹这两个字连在一起时有效，分开是没有效果的。
+
+== IO控制[指令头：草马] ==
+||指令||操作数||说明||鸟语说明||
+||[草][草]||-||输出一个字符到标准输出||Output the character at the top of the stack||
+||[草][泥]||-||输出一个数字到标准输出||Output the number at the top of the stack||
+||[泥][草]||-||从标准输入内读取一个数字（回车结束)并且放到栈顶所对应的堆空间||Read a character and place it in the location given by the top of the stack||
+||[泥][泥]||-||从标准输入内读取一个字符并且放到栈顶所对应的堆空间||Read a number and place it in the location given by the top of the stack||
