@@ -15,8 +15,8 @@
   草泥马语的指令头说明了指令的类型，列表如下：
 
   ||*指令头*||*说明*||
-  ||[草]||Stack Manipulation||
-  ||[泥][草]||Arithmetic||
-  ||[泥][泥]||Heap access||
-  ||[马]||Flow Control||
-  ||[草][马]||I/O||
+  ||`[草]  `||Stack Manipulation||
+  ||`[泥][草]`||Arithmetic||
+  ||`[泥][泥]`||Heap access||
+  ||`[马]  `||Flow Control||
+  ||`[草][马]`||I/O||
