@@ -56,7 +56,7 @@
 ||[泥][泥]||Label||如果栈顶元素小于0则跳转||Jump to a label if the top of the stack is negative||
 ||[泥][马]||-||函数结束，返回调用方||End a subroutine and transfer control back to the caller||
 ||[马][马]或者[河蟹]||-||无条件结束程序运行||End the program||
-  注意:河蟹这个指令仅仅在河蟹这两个字连在一起时有效，分开是没有效果的。
+  注意:河蟹这个指令仅仅在河蟹这两个字连在一起时有效，分开是没有效果的。（*注意更正一个歧义表达，河蟹这个指令是没有指令头的。*）
 
 == IO控制[指令头：草马] ==
 ||指令||操作数||说明||鸟语说明||
