@@ -1,0 +1,7 @@
+#summary 本页面用于提问和解答常见问题
+
+= 常见问题 =
+
+----
+  * *Q:*你提供链接里有个Grass-Mud-Horse-beta1-src-bin.rar可以下载，我用eclipse打开后有错误。
+  * *A:*我不记得有引用第三方包，请确定您的JDK版本>1.6 因为引用了javax.script的东西。批处理是用来运行程序的，gmh是主程序，gmhd是反编译器，ws2gmh是whitespace转换器
