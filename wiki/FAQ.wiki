@@ -10,7 +10,6 @@
 
   * *A:*原文：关于.rar的文件格式没有相应软件打开这一问题，戈壁政府已经开始高度重视，本项目会一直贯彻以跨平台为基本原则的开发策略。zip格式的文件已经上传，你可以尝试此下载此文件。以后上传的文件格式会尽量以7zip软件所能解压的格式为标准。
         翻译： The Gobi government has begun to taking great attention to the issue that there is no software to open files of rar format on some OS like linux, the project will always implement the basic principles of cross-platform development strategy. zip format file has been uploaded, you can try this to download this file. Since then the upload file format will endeavor to the standard that 7zip software can extract.
-Delete comment
   * *Q:*对于该语言的调查.一百个人中有78.35个人表示满意.请解释一下 这0.35个人是怎么计算的.我是XX市行政大队的调查员.鉴于你的结论让我联想到把一个人劈成0.65个和0.35个.这有可能是一个严重的刑事案件.谢谢配合
   * *A:*对于此事戈壁政府责令戈壁统计局在三个工作日内给出合理的解释，不久统计机构提交了两万字解释文件。由于文件过于庞大，并且其中涉及一些官方隐私，故不便公示。此处摘录一些公众们可以理解的部分理由：
         1.因为调查过程中，部分网友由于网络成瘾导致的心理症状而精神分裂，统计机构视其可以正常控制的部分参与计算；此外也有部分网友具有双重人格或者是双重性格，为了计算的精确性，视其比例进行了计算。
