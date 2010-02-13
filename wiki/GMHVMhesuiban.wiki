@@ -27,8 +27,7 @@
 
 
 = 百闻不如一见 =
-    下载页：[http://code.google.com/p/grass-mud-horse/downloads/detail?name=gmh_hesui_1.1.7z&can=2&q=#makechanges gmh_hesui_1.1下载页]
-    下载地址：[http://grass-mud-horse.googlecode.com/files/gmh_hesui_1.1.7z gmh_hesui_1.1.7z]
+    下载页：[http://code.google.com/p/grass-mud-horse/downloads/detail?name=gmh_hesui_1.1.7z&can=2&q=#makechanges gmh_hesui_1.1下载页]    下载地址：[http://grass-mud-horse.googlecode.com/files/gmh_hesui_1.1.7z gmh_hesui_1.1.7z]
     为方便用户的使用，此次特别使用7z压缩格式。（1.0发布后很多热心网友提出建议，所以版本立刻更新为1.1版本）
 
 
