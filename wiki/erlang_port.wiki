@@ -3,8 +3,8 @@
 
 = 注意事项 =
   1. 输入文件应该为UTF-8编码 没有BOM头
-  2. 可能MBCS支持仍然有问题，需要Code review.
-  3. 代码在这里 [http://code.google.com/p/grass-mud-horse/source/browse/trunk/erlang/grass_mud_horse.erl grass_mud_horse.erl] erl5.7.5 编译运行通过。
+  1. 可能MBCS支持仍然有问题，需要Code review.
+  1. 代码在这里 [http://code.google.com/p/grass-mud-horse/source/browse/trunk/erlang/grass_mud_horse.erl grass_mud_horse.erl] erl5.7.5 编译运行通过。
 = 运行实例 =
   {{{
 1> Code = grass_mud_horse:c("test.txt").
